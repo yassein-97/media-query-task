@@ -1,0 +1,55 @@
+@media (min-width: 1400px) {
+    .services {
+        background-color: orange;
+    }
+
+    .service-card {
+        width: calc(100%/6);
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width:1399px) {
+    .services {
+        background-color: teal;
+    }
+    .service-card {
+        width: calc(100%/5);
+    }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+    .services {
+        background-color: tomato;
+    }
+    .service-card {
+        width: calc(100%/4);
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .services {
+        background-color: green;
+    }
+    .service-card {
+        width: calc(100%/3);
+    }
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+    .services {
+        background-color: aqua;
+    }
+    .service-card {
+        width: calc(100%/2);
+    }
+}
+
+@media (max-width:575px) {
+    .services {
+        background-color: brown;
+    }
+    .service-card {
+        width: calc(100%/1);
+    }
+}
